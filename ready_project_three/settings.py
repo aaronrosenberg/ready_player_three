@@ -27,7 +27,7 @@ SECRET_KEY = '&l+r9orazf^u52!%tmk_fl6ae-(s&63-bi=g)c!&&(dzecni#k'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['qualityrockets.pythonanywhere.com', ]
 
 
 # Application definition
