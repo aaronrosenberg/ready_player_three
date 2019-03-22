@@ -80,7 +80,16 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
+    },
+    'default-postgres': {
+        'ENGINE': 'django.db.backends.postgresql',
+        # 'NAME': 'quarkpoint_dev02',
+        'NAME': 'quarkpoint_djtest',
+        'USER': 'qp_admin',
+        'PASSWORD': '5@m@nth@',
+        'HOST': 'localhost',
+        'PORT': '5432',
+    },
 }
 
 
